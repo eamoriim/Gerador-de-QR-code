@@ -1,6 +1,7 @@
-import qrcode
-import time
 import os
+import time
+
+import qrcode
 
 os.system("cls")
 texto = input("Digite o texto ou URL para gerar o QR code: ")
