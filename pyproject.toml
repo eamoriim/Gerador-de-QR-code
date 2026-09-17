@@ -1,10 +1,13 @@
 [project]
 name = "gerador-de-qr-code"
 version = "0.1.0"
-description = "Aplicação simples em Python para geração de QR Codes personalizados."
+description = "Aplicação simples em Python para geração automática de QR Codes exibidos no terminal com contagem regressiva."
 readme = "README.md"
-requires-python = ">=3.14"
-dependencies = []
+requires-python = ">=3.10"
+dependencies = [
+    "qrcode>=8.0",
+    "pillow>=10.0.0",
+]
 
 [project.scripts]
 gerador-de-qr-code = "gerador_de_qr_code:main"
